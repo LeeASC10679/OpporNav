@@ -1,0 +1,438 @@
+/*Nav Bar css DONT TOUCH */
+
+#navbar {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top:1px;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    padding-top: 30px;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+}
+
+#navbar a {
+    background-color: #ffffff;
+    color: #9271da;
+    text-decoration: none;
+    width: 240px; 
+    height: 40px; 
+    padding: 0; 
+    margin: 0;
+    border: 1px solid #9271da;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 220px; 
+    height: 140px;
+    padding-top: 20px;
+}
+
+#navbar a:hover {
+    color: #f08173;
+    border: 1px solid #f08173;
+}
+
+
+.dropbtn {
+    background-color: transparent;
+    color: black;
+    border: none;
+    cursor: pointer;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+
+.dropdown-content {
+    top: 95px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 240px;
+    z-index: 1;
+    border: 1px solid #f08173;
+    border-radius: 5px;
+    text-align: center; 
+    color:#f08173
+   
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*WORK OTHER CSS UNDER HERE OR CREATE A DIF CSS FILE FOR EACH PAGE, IF CHOSEN TO WORK UNDER HERE THEN MAKE SURE TO COMMENT PAGE NAME AND SECTION IT OFF LIKE WHAT I DID WITH THE NAV BAR */
+
+/*opportunities*/
+#Opportunitiesh1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 180px;
+    padding-bottom: 20px;
+    color: #f08173;
+    text-decoration: underline;
+}
+
+#Catagoryh2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #9271da;
+}
+
+#Genre {
+    padding: 10px 0;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    left: 10%;
+    width: 80%;
+    
+}
+
+
+.dropbtnG {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 12px 16px;
+    text-decoration: none;
+    border: 1px solid #9271da;
+    background-color: #ffffff;
+    color: #9271da;
+    text-decoration: none;
+    width: 200px; 
+    height: 40px; 
+    padding: 0; 
+    margin: 0;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-contentG a {
+    background-color: #ffffff;
+    color: #9271da;
+    text-decoration: none;
+    width: 200px; 
+    height: 40px; 
+    padding: 0; 
+    margin: 0;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-contentG {
+    top: 75px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    z-index: 1;
+    border: 1px solid #9271da;
+    border-radius: 5px;
+    text-align: center; 
+   
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtnG:hover {
+    color: #f08173;
+    border: 1px solid #f08173;
+}
+
+.dropdown-contentG a:hover {
+    color: #f08173;
+    text-decoration: underline;
+}
+
+.dropdown-contentG:hover {
+    border: 1px solid #f08173;
+}
+
+/*Home page/About us*/
+ #home h1{
+    padding-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-bottom: 20px;
+    color: #f08173;
+    text-decoration: underline;
+    font-size: 35px
+    
+}
+
+
+.text-box { 
+    background-color: #ffffff;
+    padding: 20px; 
+    border: 2px solid #f08173; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 700px; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+.content h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-orientation: upright;
+    line-height: 1.5;
+    max-width: 650px; 
+    margin: 0 auto; 
+    margin-bottom: 10px;
+    color: #f08173;
+}
+
+.content p {
+    text-orientation: upright;
+    line-height: 1.5;
+    margin: 5px;
+    max-width: 650px; 
+    margin: 0 auto; 
+    margin-bottom: 20px;
+    color: #f08173;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.Image-container,
+.Video-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #f08173;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 50%; 
+    max-width: 500px;
+    border-radius: 25px;
+    margin: 0 10px; 
+}
+
+.Photo,
+.Video {
+    width: 100%;
+    height: 300px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+   #about_us h1{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-bottom: 20px;
+    color: #9271da;
+    text-decoration: underline;
+    font-size: 35px
+}
+   
+   .text-boxA1 { 
+    background-color: #ffffff;
+    padding: 20px; 
+    border: 2px solid #9271da; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 402px; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+
+.contentA1 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-orientation: upright;
+    line-height: 1.5;
+    max-width: 650px; 
+    margin: 0 auto; 
+    color: #9271da;
+}
+
+.contentA1 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-orientation: upright;
+    line-height: 1.5;
+    margin: 5px;
+    max-width: 650px; 
+    margin: 0 auto; 
+    color: #9271da;
+}
+
+   .text-boxA2 { 
+    background-color: #ffffff;
+    padding: 20px; 
+    border: 2px solid #9271da; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 700px; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+.contentA2 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-orientation: upright;
+    line-height: 1.5;
+    max-width: 650px; 
+    margin: 0 auto; 
+    margin-bottom: 10px;
+    color: #9271da;
+}
+
+.contentA2 p {
+    text-orientation: upright;
+    line-height: 1.5;
+    margin: 5px;
+    max-width: 650px; 
+    margin: 0 auto; 
+    margin-bottom: 20px;
+    color: #9271da;
+}
+
+/*Programs*/
+
+/*opportunity pages */
+
+.opporOrg {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    color: #9271da;
+    text-decoration: none;
+    padding: 10px;
+    border: 3px solid #9271da;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.opporOrg div {
+    margin: 10px;
+}
+
+.opporImg {
+    background-color: #ffffff;
+    color: #9271da;
+    text-decoration: none;
+    padding: 10px;
+    /* border: 3px solid #f08173; */
+    border-radius: 5px;
+    width: 30%;
+    
+    
+
+}
+
+.describReq {
+    background-color: #ffffff;
+    color: #9271da;
+    text-decoration: none;
+    padding: 20px;
+    border: 2px solid #f08173;
+    border-radius: 5px;
+}
+
+.overView {
+    background-color: #ffffff;
+    color: #9271da;
+    text-decoration: none;
+    padding: 20px;
+    border: 2px solid #f08173;
+    border-radius: 5px;
+}
+.oppLink {
+    background-color: #ffffff;
+    color: #9271da;
+    border: none;
+    padding: 15px 10px;
+    text-align: center;
+    transition-duration: 0.2s;
+}
+
+.oppLink:hover{
+    color: #f08173;
+    font-size: larger;
+}
+
+.describ {
+    background-color: #ffffff;
+    color: #9271da;
+    text-decoration: none;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #f08173;
+    border-radius: 5px;
+}
+.req {
+    background-color: #ffffff;
+    color: #9271da;
+    text-decoration: none;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #f08173;
+    border-radius: 5px;
+    float: left;  
+}
+
+p{
+    font-size: 20px;
+}
