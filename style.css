@@ -68,8 +68,11 @@
     border: 1px solid #f08173;
     border-radius: 5px;
     text-align: center; 
-    color:#f08173
-   
+    color:#f08173;
+}
+
+.dropdown-content p {
+    font-size: 15px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -376,7 +379,7 @@
     padding: 10px;
     /* border: 3px solid #f08173; */
     border-radius: 5px;
-    width: 30%;
+    width: 40%;
     
     
 
